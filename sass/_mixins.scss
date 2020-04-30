@@ -1,0 +1,23 @@
+@mixin button($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 4px;
+    background-color: rgb(234, 91, 88);
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@mixin circle($color) {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: $color;
+}
+
+@mixin line($color) {
+    height: 1px;
+    width: 250px;
+    background-color: $color;
+
+}

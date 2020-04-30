@@ -1,0 +1,24 @@
+.works {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../img/bosco-shots-jaodNHtFx6I-unsplash.jpg');
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .title-content {
+        text-align: center;
+
+        h3 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+}
